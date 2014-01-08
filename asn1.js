@@ -15,6 +15,8 @@
 
 /*jshint browser: true, strict: true, immed: true, latedef: true, undef: true, regexdash: false */
 /*global oids */
+var oids = require('./oids');
+
 (function (undefined) {
 "use strict";
 
@@ -531,5 +533,6 @@ ASN1.test = function () {
 };
 
 // export globals
-window.ASN1 = ASN1;
+try { window.ASN1 = ASN1; } catch (e) {}
+try { module.exports = ASN1; } catch (e) {}
 })();

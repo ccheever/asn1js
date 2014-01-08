@@ -2,6 +2,10 @@
 /*global Hex, Base64, ASN1 */
 "use strict";
 
+var Hex = require './hex';
+var Base64 = require './base64';
+var ASN1 = require './asn1';
+
 var reHex = /^\s*(?:[0-9A-Fa-f][0-9A-Fa-f]\s*)+$/,
     hash = null;
 function id(elem) {

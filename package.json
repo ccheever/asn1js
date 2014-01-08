@@ -1,0 +1,24 @@
+{
+  "name": "asn1js",
+  "version": "0.0.0",
+  "description": "Lapo Luchini's JavaScript generic ASN.1 parser",
+  "main": "asn1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ccheever/asn1js.git"
+  },
+  "keywords": [
+    "asn1js",
+    "lapo-luchini",
+    "asn1"
+  ],
+  "author": "Lapo Luchini <lapo@lapo.it>, packaged by Charlie Cheever <ccheever@gmail.com> (http://ccheever.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ccheever/asn1js/issues"
+  },
+  "homepage": "https://github.com/ccheever/asn1js"
+}

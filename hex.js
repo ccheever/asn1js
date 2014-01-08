@@ -61,5 +61,6 @@ Hex.decode = function(a) {
 };
 
 // export globals
-window.Hex = Hex;
+try { window.Hex = Hex; } catch (e) {}
+try { module.exports = Hex; } catch (e) {}
 })();

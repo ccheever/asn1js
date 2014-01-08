@@ -1960,3 +1960,4 @@ oids = {
 "2.16.840.1.114171.500.9": { "d": "Wells Fargo EV policy", "c": "Wells Fargo WellsSecure Public Root Certificate Authority", "w": false },
 "END": ""
 };
+try { module.exports = oids; } catch (e) {}
